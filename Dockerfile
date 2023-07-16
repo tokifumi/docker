@@ -33,7 +33,7 @@ echo "usera:usera" | chpasswd
 # 作成したログインユーザーに切り替える
 USER ${UID}
 WORKDIR /home/usera/
-mkdir ダウンロード デスクトップ ビデオ 画像 テンプレート ドキュメント 音楽 公開
+RUN mkdir ダウンロード デスクトップ ビデオ 画像 テンプレート ドキュメント 音楽 公開
 
 # コンテナ実行時のデフォルトコマンド
 CMD ["/bin/bash"]
