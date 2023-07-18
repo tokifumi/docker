@@ -10,7 +10,7 @@ do
  case $ANS in
 	1)
 	echo -e "CentOSを起動します\n"
-	docker run --rm -it --name centos7-$(date +%s) -h centos7 centos:7
+	docker run --rm -it --name centos7c-$(date +%s) -h centos7c centos7c
 	break
 	;;
 
